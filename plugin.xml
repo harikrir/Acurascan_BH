@@ -16,7 +16,7 @@
         <clobbers target="Promise" />
     </js-module>
     <js-module name="ACCURAService" src="www/ACCURA.js">
-        <clobbers target="cordova.plugins.ACCURAService" />
+        <clobbers target="accurascan" />
     </js-module>
     <platform name="android">
         <!-- Extra permissions into Android accura features. -->
